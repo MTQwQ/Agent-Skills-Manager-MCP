@@ -1,0 +1,6 @@
+---
+description: Test skill
+globs: *
+---
+# Test Skill
+This is just a test payload.

@@ -1,0 +1,23 @@
+{
+  "name": "agent-skills-manager-mcp",
+  "version": "1.0.0",
+  "description": "MCP server acting as an AI skill library manager",
+  "license": "GPL-3.0",
+  "main": "build/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
